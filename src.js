@@ -1,7 +1,7 @@
 function myfunction()
 {
     var text ;
-    var item_name = prompt("ENTER ITEM NAME: ", "Enter Item number");
+    var item_name = prompt("ENTER ITEM NUMBER: ", "Enter Item number");
     switch(item_name)
     {
         case "1":
