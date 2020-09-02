@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<script type = "text/javascript" src = "angular.min.js"></script>
+<script type = "text/javascript" scr = "app.js"></script>
+<body ng-app = "simpleCal">
+<div ng-controller="simpleCalController">
+    First no:
+    <div>
+        <input type="text" ng-model="n1" ng-keyup="cal();">
+    </div>
+    Second no:
+    <div>
+        <input type="text" ng-model="n2" ng-keyup="cal();">
+    </div>
+    <div>
+        Total value is: {{totalValue}}
+    </div>
+    </div>
+</body>
+</html>
